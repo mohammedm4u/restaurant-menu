@@ -72,7 +72,7 @@ do{
 
 }
 
-userinputt=prompt("Do you want to order more? yes/no").toLowerCase()
+userinputt=prompt("Do you want to order more items 1:starter/2:maincourse/3:desserts? yes/no").toLowerCase()
 
 }while(userinputt ==="yes")
 if(userinputt=="no")console.log("thankyou for ordering")
